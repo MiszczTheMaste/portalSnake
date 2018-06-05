@@ -319,9 +319,7 @@ void PortalLogic()
         {
             snakeParts[0].x = portals[1].x;
             snakeParts[0].y = portals[1].y;
-        }
-
-        if(snakeParts[0].x == portals[1].x && snakeParts[0].y == portals[1].y)
+        }else if(snakeParts[0].x == portals[1].x && snakeParts[0].y == portals[1].y)
         {
             snakeParts[0].x = portals[0].x;
             snakeParts[0].y = portals[0].y;
